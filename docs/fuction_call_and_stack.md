@@ -146,7 +146,7 @@ main:
 	movl	$3, %r8d //将3放入r9d寄存器
 	movl	$2, %edx //将2放入edx寄存器
 	movl	$1, %ecx //将1放入ecx寄存器
-	call	func_call_demo
+	call	func_call_demo//函数调用，当前rbp会在调用函数里入栈保存，在函数调用结束后出栈恢复
 	movl	%eax, -4(%rbp)
 	movl	-4(%rbp), %eax
 	movl	%eax, %edx
