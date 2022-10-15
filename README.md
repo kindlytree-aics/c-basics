@@ -10,6 +10,7 @@
 - 配置方法：
     - 设置环境变量PATH中添加编译器解压的目录，注意要到bin这一层，如`D:\software\gcc\mingw64\bin`
     - vscode中安装必要的插件，如c/c++插件
+    - 配置示例参考[配置文件launch.json](./docs/launch.json)和[配置文件tasks.json](./docs/tasks.json),具体路径根据实际情况进行更新。
     - 具体配置请参考视频演示：https://www.bilibili.com/video/BV1Ee411K7Hq
 
 ### 主要内容
