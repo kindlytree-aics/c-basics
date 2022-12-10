@@ -21,6 +21,6 @@ int how_many_cows(int n)
 int main()
 {
     int n = 20;
-    int howmany = how_many_cows()
-    retunr 0;
+    int howmany = how_many_cows(n);
+    return 0;
 }
